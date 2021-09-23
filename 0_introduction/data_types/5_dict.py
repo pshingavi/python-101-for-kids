@@ -1,24 +1,24 @@
 # Empty dictionary
-my_dict = {"1": "Alice"}
+my_english_dictionary = {"word1": "meaning 1"}
 
 # Set key
-my_dict["2"] = "Judy"
-my_dict["3"] = "Amy"
+my_english_dictionary["word2"] = "meaning 2"
+my_english_dictionary["word3"] = "meaning 3"
 
 # Print
-my_dict
+my_english_dictionary
 
 # Overwrite existing key
-my_dict["3"] = "abc"
+my_english_dictionary["word3"] = "new meaing 3"
 
 # Print
-my_dict
+my_english_dictionary
 
 # Get value
-my_dict.get('2')
+my_english_dictionary.get('word2')
 
 # Get all keys
-my_dict.keys()
+my_english_dictionary.keys()
 
 # Get all values
-my_dict.values()
+my_english_dictionary.values()
