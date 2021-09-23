@@ -1,6 +1,6 @@
 # Integer Numbers
-year = 2021
-year = int("2021")
+any_variable_name = 2021
+any_variable_name = int("2021")
 
 # Floating point Numbers
 pi = 3.14
