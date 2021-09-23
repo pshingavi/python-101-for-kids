@@ -1,8 +1,12 @@
-animals = "Cats " + "Dogs"
+animals = "Cats " + "Dogs "
 animals += "Rabbits"
-animals
+animals # "Cats Dogs Rabbits"
 
 fruit_basket = ', '.join(['Apple', 'Banana', 'Orange'])
-fruit_basket
+fruit_basket  # "Apple, Banana, Orange"
 
-date = '%s %d %d' % ('Sept', 24, 2021)
+
+month = 'Sept'
+day = 24
+year = 2021
+date = '{} {}, {}'.format(month, day, year) # 'Sept 24, 2021'
