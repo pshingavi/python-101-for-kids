@@ -7,6 +7,9 @@ import turtle
 # Get turtle Pen
 t = turtle.Pen()
 
+#Pen color
+#t.pencolor('violet')
+
 # Draw fast
 t.speed(0)
 
