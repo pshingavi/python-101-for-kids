@@ -9,6 +9,6 @@ print(random_num)
 user_input = input("Provide user string input: ")
 print(user_input)
 
-# Case user input to int
+# Cast user input to int
 user_input = input("Provide user int input: ")
 print(int(user_input))
